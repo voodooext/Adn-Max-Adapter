@@ -5,10 +5,10 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/voodooext/Adn-Max-Adapter'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sarra s' => 'sarra@voodoo.io' }
-  s.source           = { :http => 'https://voodoo-adn-framework.s3.eu-west-1.amazonaws.com/iOS/maxads/adapter/2.3.8.1.0/VoodooMaxAdapter.zip'}
+  s.source           = { :http => 'https://voodoo-adn-framework.s3.eu-west-1.amazonaws.com/iOS/maxads/adapter/2.3.7.1.0/VoodooMaxAdapter.zip'}
   s.source_files = 'VoodooMaxAdapter/*.{h,m}'
   s.static_framework = true
-  s.dependency 'VoodooAdn', '=2.3.8'
+  s.dependency 'VoodooAdn', '=2.3.7'
   s.dependency 'AppLovinSDK'
 
   s.ios.deployment_target = '11.0'
